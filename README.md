@@ -1,5 +1,9 @@
 # 🛡️ Kairoz: AI-Powered Cybersecurity CLI Assistant
 
+![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Python](https://img.shields.io/badge/python-3.11+-brightgreen)
+![CLI Tool](https://img.shields.io/badge/interface-CLI-informational)
+
 **Category:** AI x Cybersecurity  
 **Interface:** Command Line (Text + Voice)  
 **Powered by:** IBM Granite (Locally Hosted)
