@@ -28,38 +28,6 @@ From real-time log monitoring to interactive cybersecurity Q&A, Kairoz is a powe
 
 ---
 
-## 📁 Project Structure
-
-kairoz/
-├── main.py               # Unified CLI entrypoint
-├── kairoz_cli.py         # CLI launcher for package entry
-├── config.py             # Model/device settings
-├── requirements.txt      # Python dependencies
-├── .env                  # Model ID 
-
-├── modes/
-│ ├── analyze.py          # Log file analysis mode
-│ ├── monitor.py          # Real-time log monitor with improved Ctrl+C handling
-│ ├── ask.py              # Cybersecurity Q&A (text)
-│ └── voice.py            # Voice-driven interaction
-
-├── utils/
-│ ├── hf_model.py         # Hugging Face / Granite integration
-│ ├── log_parser.py       # Suspicious pattern extraction
-│ ├── prompt_builder.py   # Template generation for AI prompts
-│ ├── report_writer.py    # Markdown report formatter
-│ ├── banner.py           # Main CLI banner printing with animation
-│ └── feature_banner.py   # Feature headings (non-box style)
-
-├── data/                 # Sample .log files
-├── prompts/              # Prompt templates (threat_analysis.txt, qna.txt)
-├── reports/              # Output markdown threat reports
-├── tests/                # Unit tests (test_logs.py)
-├── docs/                 # Docs (architecture.md, usage_examples.md)
-└── setup.py              # Package installer setup
-
----
-
 ## ⚙️ Installation & Setup Instructions
 
 ### From Source (Manual Setup)
