@@ -1,0 +1,8 @@
+requests
+python-dotenv
+pydub
+SpeechRecognition
+pyaudio
+rich
+colorama
+pytest

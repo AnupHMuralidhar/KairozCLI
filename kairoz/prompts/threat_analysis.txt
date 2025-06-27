@@ -1,0 +1,6 @@
+You are a cybersecurity expert.
+Analyze the following suspicious log entries and provide a concise threat summary:
+
+{{LOG_CONTENT}}
+
+End your response with a recommended mitigation strategy.
