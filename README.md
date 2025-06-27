@@ -48,12 +48,18 @@ cd kairoz
 pip install -r requirements.txt
 ```
 
-3. Log in to Hugging Face for IBM Granite model access:
+3. Create a .env file in root directory:
+```bash
+USE_LOCAL_MODEL=true
+LOCAL_MODEL_NAME=ibm-granite/granite-3.3-2b-instruct
+```
+
+4. Log in to Hugging Face for IBM Granite model access:
 ```bash
 huggingface-cli login
 ```
 
-4. Configure your .env file:
+5. Configure your .env file:
 ```bash
 MODEL_ID=ibm-granite/granite-3.3-2b-instruct
 ```
